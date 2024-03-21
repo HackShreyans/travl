@@ -22,8 +22,6 @@ The authentication for react app mechanism is implemented with security and effi
 # MERN Authentication JWT
 Incorporating mern authentication JWT within this MERN stack application example ensures that the tokens used for user sessions are managed according to the latest security standards. It's a critical feature that underscores the entire authentication process in my MERN application example.
 
-# Comprehensive Learning Resource
-This repository is more than just a MERN login and register system. It is an educational tool for understanding user authentication React methods and MERN stack authentication strategies. I aim to provide a solid understanding of how authentication integrates within a MERN stack app, offering developers a practical MERN authentication tutorial.
 
 # Features
 - User Registration: Allows new users to create an account.
@@ -37,10 +35,12 @@ Frontend:
 - React.js: For building the user interface.
 - Toastify: To display notifications and alerts.
 - React Router DOM: For managing navigation in the application.
+- Socket Programming
 Backend:
 - Node.js: As the runtime environment.
 - Express: Web application framework for Node.js.
 - MongoDB: Database to store user credentials and session data.
+- Socket Programming
 
 
 ```
@@ -48,7 +48,7 @@ Backend:
 2. Install dependencies:
 Navigate to the project directory:
 ```
-cd folder-name
+cd backend
 ```
 
 3. Install backend dependencies:
@@ -76,6 +76,7 @@ JWT_SECRET=your_jwt_secret
 Start the backend server:
 ```
 node app.js
+npm start
 ```
 
 7. In a new terminal, start the frontend:
