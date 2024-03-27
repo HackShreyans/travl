@@ -27,7 +27,8 @@ Incorporating mern authentication JWT within this MERN stack application example
 - User Registration: Allows new users to create an account.
 - User Login: Enables users to log in with their credentials.
 - JWT Authentication: Secures user sessions using JSON Web Tokens.
-- Socket Io implemented if new User comes 
+- implement searching and sorting according to the task.
+- implement Socket Io if new User comes according to the task.
 - Responsive Design: Ensures a great user experience across various devices.
 
 # Technologies Used
